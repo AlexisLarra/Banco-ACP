@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -10,9 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer">  
     <title>BACP - Banco de Acumulación del Capital Popular</title>
 </head>
 
@@ -35,18 +35,10 @@
             <!-- menu -->
             <nav class="menu">
                 <ul>
-                    <a href="index.html">
-                        <li>INICIO</li>
-                    </a>
-                    <a href="#">
-                        <li>SERVICIOS</li>
-                    </a>
-                    <a href="#">
-                        <li>NOSOTROS</li>
-                    </a>
-                    <a href="#">
-                        <li>CONTACTO</li>
-                    </a>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="#">SERVICIOS</a></li>
+                    <li><a href="#">NOSOTROS</a></li>
+                    <li><a href="#">CONTACTO</a></li>
                 </ul>
             </nav>
             <!-- fin menu -->
@@ -59,18 +51,20 @@
 
             <!-- slidebar  -->
             <section class="slider">
-                <span>
-                    Banco de Acumulación del Capital Popular
+                <div class="span">
+                    <h3>Banco de Acumulación del Capital Popular
                     <br>
-                    Fundado para personas con o sin plata
-                </span>
+                    Fundado para personas con o sin plata</h3>
+                </div>
+                
             </section>
             <!-- fin slidebar  -->
 
             <!-- cotizacion -->
             <section class="cotizacion">
+                <h2>Cotizacion</h2>
                 <iframe src="https://es.widgets.investing.com/live-currency-cross-rates?theme=lightTheme&pairs=2090"
-                    width="100%" height="163" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0">
+                    height="200">
                 </iframe>
             </section>
             <!-- fin cotizacion -->
@@ -101,32 +95,33 @@
             <!-- Fin Destacados: Nosotros -->
 
             <!-- Destacados: Servicios -->
-            <h1><i class="fa-solid fa-star"></i> SERVICIOS DESTACADOS</h1>
+            <h2><i class="fa-solid fa-star"></i> SERVICIOS DESTACADOS</h2>
             <section class="servicios-destacados">
+                <h2 style="display: none;">SERVICIOS DESTACADOS</h2>
                 <article class="servicio">
                     <h2>Nuestras Tarjetas</h2>
-                    <img src="img/tarjeta.png">
+                    <img src="img/tarjeta.png" alt="Tarjeta">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua.
                     <button>Mas informacion</button>
                 </article>
                 <article class="servicio">
                     <h2>Cuenta Sueldo</h2>
-                    <img src="img/tarjeta.png">
+                    <img src="img/tarjeta.png" alt="Tarjeta">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua.
                     <button>Mas informacion</button>
                 </article>
                 <article class="servicio">
                     <h2>Plazo Fijo</h2>
-                    <img src="img/tarjeta.png">
+                    <img src="img/tarjeta.png" alt="Tarjeta">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua.
                     <button>Mas informacion</button>
                 </article>
                 <article class="servicio">
                     <h2>Prestamos</h2>
-                    <img src="img/tarjeta.png">
+                    <img src="img/tarjeta.png" alt="Tarjeta">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua.
                     <button>Mas informacion</button>
@@ -186,7 +181,12 @@
                     <p>
                         Queremos mencionar que este proyecto fue producido solo para fines educativos y simplemente
                         quisimos recrear una parodia que representa un poco lo que estamos pasando la mayoría de los
-                        Argentinos en este país (año 2024) y que ademas le intentamos poner un poco de humor.
+                        Argentinos en este país (año 2024) y que ademas le intentamos poner un poco de humor. No fue
+                        creada para descalificar con agravios a ninguna institución Bancaria o persona que pueda
+                        sentirse afectada por este contenido y ni tampoco establecer malestar y generar ideas que creen
+                        tendencias políticas ni económicas. Si existiera alguien o algunas personas que haya sufrido
+                        algún malestar después de haber explorado este contenido, le pedimos disculpas, esa no fue
+                        nuestra intención.
                     </p>
                     <br>
                     <a href="#">Leer mas...</a>
@@ -197,14 +197,16 @@
             </section>
             <br>
             <!-- Fin Destacados: Aclaracion -->
-            <footer class="pie">
-                © 2024 🐷 Banco ACP - Banco de Acumulación del Capital Popular.
-            </footer>
+
         </main>
         <!-- fin contenido -->
 
 
     </div>
+
+    <footer class="pie">
+        © 2024 🐷 Banco ACP - Banco de Acumulación del Capital Popular.
+    </footer>
 
 </body>
 
